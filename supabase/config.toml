@@ -1,0 +1,10 @@
+project_id = "axxbxptgdjypksjjpytn"
+
+[functions.draw-prize]
+verify_jwt = true
+
+[functions.issue-ticket]
+verify_jwt = true
+
+[functions.admin-enrollment]
+verify_jwt = true
