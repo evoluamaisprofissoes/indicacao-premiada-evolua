@@ -5,5 +5,8 @@ import App from './App.jsx';
 import './styles.css';
 
 createRoot(document.getElementById('root')).render(
-  <React.StrictMode><BrowserRouter><App /></BrowserRouter></React.StrictMode>
-);
+  <React.StrictMode>
+  <BrowserRouter basename="/indicacao-premiada-evolua">
+    <App />
+  </BrowserRouter>
+</React.StrictMode>
